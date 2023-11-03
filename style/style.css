@@ -1,0 +1,93 @@
+html, body{
+width: 100%;
+height: 90%;
+margin: 0;
+padding: 0;
+}
+
+h1{
+text-align: center
+}
+
+div{
+text-align: center;
+height: 55%;
+display: flex;
+align-items: center;
+}
+
+.game-space{
+height: 30%;
+}
+
+.left{
+float: left;
+width: 33.3%;
+height: 100%;
+background-color: LemonChiffon;
+flex-direction: column;
+justify-content: space-evenly
+}
+
+.center{
+float: left;
+width: 33.4%;
+height: 100%;
+background-color: LightBlue;
+flex-direction: column;
+justify-content: space-evenly
+}
+
+.right{
+float: left;
+width: 33.3%;
+height: 100%;
+background-color: LightGreen;
+flex-direction: column;
+justify-content: space-evenly
+}
+
+.score{
+background-color: blue;
+color: white;
+padding: 5px 10px;
+border-radius: 50%;
+}
+
+p, span{
+font-size: 35px;
+}
+
+#result-message{
+font-size: 20px;
+}
+
+.button1{
+padding-top: 5%
+}
+
+.button2{
+padding-bottom: 5%
+}
+
+#generate-number{
+display: inline-block;
+background: #2196f3;
+color: #fff;
+padding: 12px;
+border-radius: 3px;
+font-size: 18px;
+font-weight: 100;
+cursor: pointer;
+}
+
+#reset-score{
+display: inline-block;
+background: #2196f3;
+color: #fff;
+padding: 12px;
+border-radius: 3px;
+font-size: 18px;
+font-weight: 100;
+cursor: pointer;
+}
